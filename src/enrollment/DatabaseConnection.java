@@ -10,6 +10,8 @@ public class DatabaseConnection {
     private static final String DB_URL = "jdbc:sqlite:enrollment.db";
     private static Connection connection = null;
 
+    
+
     // Returns a single shared connection (Singleton pattern)
     public static Connection getConnection() {
         try {
