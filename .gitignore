@@ -1,11 +1,7 @@
-# Eclipse files
 .classpath
 .project
 .settings/
 bin/
-
-# SQLite database (has real data, no need to push)
 *.db
-
-# Java compiled output
 *.class
+.vscode/
